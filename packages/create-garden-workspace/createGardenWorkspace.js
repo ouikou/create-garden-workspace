@@ -908,7 +908,7 @@ function isSafeToCreateProjectIn(root, name) {
     '.DS_Store',
     '.git',
     '.gitattributes',
-    // '.gitignore',
+    '.gitignore',
     '.gitlab-ci.yml',
     '.hg',
     '.hgcheck',
