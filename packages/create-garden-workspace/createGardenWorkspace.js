@@ -409,7 +409,7 @@ function run(
   ]).then(([packageToInstall, templateToInstall]) => {
     const allDependencies = ['react', 'react-dom', packageToInstall];
 
-    console.log('Installing packages. This might take a couple of minutes.');
+    // console.log('Installing packages. This might take a couple of minutes.');
 
     Promise.all([
       getPackageInfo(packageToInstall),
