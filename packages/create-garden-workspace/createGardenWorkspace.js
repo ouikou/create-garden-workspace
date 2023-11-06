@@ -404,7 +404,7 @@ function run(
   usePnp
 ) {
   Promise.all([
-    // getInstallPackage(version, originalDirectory),
+    getInstallPackage(version, originalDirectory),
     getTemplateInstallPackage(template, originalDirectory),
   ]).then(([packageToInstall, templateToInstall]) => {
     const allDependencies = ['react', 'react-dom', packageToInstall];
