@@ -380,18 +380,16 @@ function install(root, useYarn, usePnp, dependencies, verbose, isOnline) {
       args.push('--verbose');
     }
 
-    // const child = spawn(command, args, { stdio: 'inherit' });
-    // child.on('close', code => {
-    //   if (code !== 0) {
-    //     reject({
-    //       command: `${command} ${args.join(' ')}`,
-    //     });
-    //     return;
-    //   }
-    //   resolve();
-    // });
-
-    resolve();
+    const child = spawn(command, args, { stdio: 'inherit' });
+    child.on('close', code => {
+      if (code !== 0) {
+        reject({
+          command: `${command} ${args.join(' ')}`,
+        });
+        return;
+      }
+      resolve();
+    });
   });
 }
 
