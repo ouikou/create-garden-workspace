@@ -204,21 +204,21 @@ function init() {
       }
     })
     .then(latest => {
-      if (latest && semver.lt(packageJson.version, latest)) {
-        console.log();
-        console.error(
-          chalk.yellow(
-            `You are running \`create-react-app\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
-              'We recommend always using the latest version of create-react-app if possible.'
-          )
-        );
-        console.log();
-        console.log(
-          'The latest instructions for creating a new app can be found here:\n' +
-            'https://create-react-app.dev/docs/getting-started/'
-        );
-        console.log();
-      } else {
+      // if (latest && semver.lt(packageJson.version, latest)) {
+      //   console.log();
+      //   console.error(
+      //     chalk.yellow(
+      //       `You are running \`create-react-app\` ${packageJson.version}, which is behind the latest release (${latest}).\n\n` +
+      //         'We recommend always using the latest version of create-react-app if possible.'
+      //     )
+      //   );
+      //   console.log();
+      //   console.log(
+      //     'The latest instructions for creating a new app can be found here:\n' +
+      //       'https://create-react-app.dev/docs/getting-started/'
+      //   );
+      //   console.log();
+      // } else {
         const useYarn = isUsingYarn();
         createApp(
           projectName,
@@ -228,7 +228,7 @@ function init() {
           useYarn,
           program.usePnp
         );
-      }
+      // }
     });
 }
 
