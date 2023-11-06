@@ -1,7 +1,12 @@
 {
   "name": "garden-workspace-scripts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Configuration and scripts for Create GARDEN workspace.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouikou/create-garden-workspace.git",
+    "directory": "packages/garden-workspace-scripts"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"

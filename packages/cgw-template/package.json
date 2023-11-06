@@ -1,12 +1,17 @@
 {
   "name": "cgw-template",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [
     "garden",
     "create-garden-workspace",
     "template"
   ],
   "description": "The base template for Create GARDEN workspace.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouikou/create-garden-workspace.git",
+    "directory": "packages/cgw-template"
+  },
   "author": "ouikou <wang.weiguang@zipc.com>",
   "homepage": "",
   "license": "MIT",

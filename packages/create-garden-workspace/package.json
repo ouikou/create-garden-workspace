@@ -1,10 +1,15 @@
 {
   "name": "create-garden-workspace",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [
     "garden"
   ],
   "description": "Create GARDEN workspace with no build configuration.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouikou/create-garden-workspace.git",
+    "directory": "packages/create-garden-workspace"
+  },
   "author": "ouikou <wang.weiguang@zipc.com>",
   "homepage": "",
   "license": "MIT",
