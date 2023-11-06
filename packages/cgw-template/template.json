@@ -1,0 +1,8 @@
+{
+    "package": {
+        "dependencies": {},
+        "eslintConfig": {
+            "extends": []
+        }
+    }
+}

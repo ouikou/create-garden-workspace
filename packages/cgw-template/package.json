@@ -1,0 +1,20 @@
+{
+  "name": "cgw-template",
+  "version": "0.0.1",
+  "keywords": [
+    "garden",
+    "create-garden-workspace",
+    "template"
+  ],
+  "description": "The base template for Create GARDEN workspace.",
+  "author": "ouikou <wang.weiguang@zipc.com>",
+  "homepage": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

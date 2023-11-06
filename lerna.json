@@ -1,0 +1,11 @@
+{
+  "lerna": "7.4.2",
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "version": "independent",
+  "changelog": {
+    "repo": "garden/create-garden-workspace",
+    "labels": {},
+    "cacheDir": ".changelog"
+  }
+}
