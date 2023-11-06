@@ -458,18 +458,18 @@ function run(
         );
         console.log();
 
-        return install(
-          root,
-          useYarn,
-          usePnp,
-          allDependencies,
-          verbose,
-          isOnline
-        ).then(() => ({
-          packageInfo,
-          supportsTemplates,
-          templateInfo,
-        }));
+        // return install(
+        //   root,
+        //   useYarn,
+        //   usePnp,
+        //   allDependencies,
+        //   verbose,
+        //   isOnline
+        // ).then(() => ({
+        //   packageInfo,
+        //   supportsTemplates,
+        //   templateInfo,
+        // }));
       })
       .then(async ({ packageInfo, supportsTemplates, templateInfo }) => {
         const packageName = packageInfo.name;
